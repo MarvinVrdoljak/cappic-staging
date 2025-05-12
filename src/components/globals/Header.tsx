@@ -18,7 +18,6 @@ export default function Header({ root }: { root?: boolean }) {
             <Link href={`/`} className="header__logo">
               <Image src="/logo.svg" alt="cappic Logo" width={150} height={50} />
             </Link>
-            <LangSwitch />
           </>
         )}
       </div>

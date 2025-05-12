@@ -25,26 +25,6 @@ const poppins = Poppins({
   display: 'swap',
 })
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>
-}): Promise<Metadata> {
-  const { locale } = await params
-  const localeConfig = await getRequestConfig({ requestLocale: Promise.resolve(locale) })
-
-  return {
-    title: localeConfig.messages?.metadata?.title || 'cappic',
-    description: localeConfig.messages?.metadata?.description || 'cappic - Your Photo App',
-    openGraph: {
-      title: localeConfig.messages?.metadata?.title || 'cappic',
-      description: localeConfig.messages?.metadata?.description || 'cappic - Your Photo App',
-      locale: localeConfig.locale,
-      type: 'website',
-    },
-  }
-}
-
 export default async function RootLayout({ children, params }: RootLayoutProps) {
   const { locale } = await params
   const localeConfig = await getRequestConfig({ requestLocale: Promise.resolve(locale) })
@@ -52,11 +32,7 @@ export default async function RootLayout({ children, params }: RootLayoutProps) 
   return (
     <html lang={localeConfig.locale} className={poppins.variable}>
       <Providers messages={localeConfig?.messages as any} locale={localeConfig.locale}>
-        <body>
-          <Header />
-          {children}
-          <Footer />
-        </body>
+        <body>{children}</body>
       </Providers>
     </html>
   )

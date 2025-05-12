@@ -18,7 +18,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html className={poppins.variable}>
       <body>
         <DeepLinkHandler />
-        <Header root />
         <main>{children}</main>
       </body>
     </html>

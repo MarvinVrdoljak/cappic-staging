@@ -14,18 +14,7 @@ export default function NotFound() {
 
   return (
     <section className="section">
-      <div className="grid">
-        <Hero
-          title={language === 'de' ? 'App nicht installiert?' : 'App not installed?'}
-          subtitle={language === 'de' ? 'cappic herunterladen' : 'Get cappic'}
-          description={
-            language === 'de'
-              ? 'Bitte installiere die cappic App über einen der folgenden Stores.'
-              : 'Please install the cappic app via one of the following stores.'
-          }
-          staticLocale={language}
-        />
-      </div>
+      <div className="grid">Not installed</div>
     </section>
   )
 }
