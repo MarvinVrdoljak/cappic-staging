@@ -1,0 +1,26 @@
+.header {
+  position: fixed;
+  padding: rem-calc(25 0);
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: $white-color;
+  height: rem-calc(100);
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include globalWidth();
+  }
+
+  &__logo {
+    display: block;
+
+    img {
+      width: rem-calc(140);
+      height: auto;
+    }
+  }
+}

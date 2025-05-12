@@ -1,0 +1,32 @@
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: rem-calc(20);
+
+  li {
+    > a {
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    &.is-active a {
+      color: $primary-color;
+    }
+  }
+
+  &--social {
+    gap: rem-calc(10);
+  }
+
+  &--footer {
+    @include breakpoint(large, down) {
+      flex-direction: column;
+      text-align: center;
+      gap: rem-calc(5);
+    }
+  }
+}

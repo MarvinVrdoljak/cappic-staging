@@ -1,0 +1,98 @@
+/**********************************************************************************************************************/
+/* Basic Typography */
+/**********************************************************************************************************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.button,
+.common-text {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font-family;
+  line-height: $header-line-height;
+  font-weight: $header-font-weight;
+  margin-top: 0;
+  hyphens: auto;
+}
+
+h1 {
+  @include font-sizes((small, 32), (medium, 42), (large 54), (xlarge, 62));
+  margin: rem-calc(0 0 20 0);
+  line-height: 1;
+}
+
+h2 {
+  @include font-sizes((small, 24s), (medium, 26), (large 28), (xlarge, 32));
+  margin: rem-calc(0 0 15 0);
+
+  ol+&,
+  ul+&,
+  p+& {
+    margin-top: rem-calc(30);
+  }
+}
+
+h3 {
+  @include font-sizes((small, 20), (medium, 22), (large, 24));
+  margin: rem-calc(0 0 10 0);
+
+  ol+&,
+  ul+&,
+  p+& {
+    margin-top: rem-calc(30);
+  }
+}
+
+h4 {
+  @include font-sizes((small, 24), (medium, 28), (large, 32));
+  margin: rem-calc(0 0 12 0);
+}
+
+ul,
+ol,
+.common-text,
+p {
+  margin: rem-calc(0 0 20 0);
+}
+
+a {
+  color: $text-color;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+.label {
+  font-weight: 700;
+  display: block;
+  margin-bottom: rem-calc(5);
+  color: c;
+}
+
+.lead {
+  font-size: rem-calc(20);
+
+  @include breakpoint(large, down) {
+    font-size: rem-calc(18);
+  }
+}

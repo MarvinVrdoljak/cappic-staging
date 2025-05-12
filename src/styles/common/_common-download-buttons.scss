@@ -1,0 +1,16 @@
+.download-buttons {
+  display: flex;
+  gap: rem-calc(20);
+
+  @include breakpoint(large, down) {
+    flex-direction: column;
+    gap: rem-calc(10);
+  }
+
+  &__button {
+    img {
+      height: rem-calc(60);
+      width: auto;
+    }
+  }
+}

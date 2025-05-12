@@ -1,0 +1,34 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "YGJZ3Z2BX2.com.cappic.app",
+          "YGJZ3Z2BX2.com.cappic.app.preview"
+        ],
+        "components": [
+          {
+            "/": "/invite/*",
+            "comment": "Matches any URL with a path that starts with /invite/."
+          },
+          {
+            "/": "/reset-password/*",
+            "comment": "Matches any URL with a path that starts with /reset-password/."
+          },
+          {
+            "/": "/login/*",
+            "comment": "Matches any URL with a path that starts with /login/."
+          },
+          {
+            "/": "/sign-up/*",
+            "comment": "Matches any URL with a path that starts with /sign-up/."
+          },
+          {
+            "/": "/auth/callback/*",
+            "comment": "Matches any URL with a path that starts with /auth/callback/."
+          }
+        ]
+      }
+    ]
+  }
+}

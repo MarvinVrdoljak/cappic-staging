@@ -1,0 +1,13 @@
+.block-full-text {
+  margin-bottom: rem-calc(125);
+
+  @include breakpoint(large, down) {
+    margin-bottom: rem-calc(50);
+  }
+
+  &__content {
+    max-width: rem-calc(800);
+    margin: 0 auto;
+    text-align: center;
+  }
+}

@@ -1,0 +1,38 @@
+.footer {
+  @include globalWidth();
+  margin-bottom: rem-calc(25);
+
+  &__inner {
+    background-color: $background-color-soft;
+    padding: rem-calc(40);
+    border-radius: $border-radius-l;
+  }
+
+  &__top {
+    display: flex;
+    margin-bottom: rem-calc(50);
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__social-title {
+    margin-bottom: rem-calc(8);
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: rem-calc(14);
+
+    @include breakpoint(large, down) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  &__byline {
+    @include breakpoint(large, down) {
+      margin-bottom: rem-calc(20);
+    }
+  }
+}

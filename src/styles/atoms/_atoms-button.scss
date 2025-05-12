@@ -1,0 +1,33 @@
+button {
+  cursor: pointer;
+  display: inline-block;
+  appearance: none;
+  user-select: none;
+  box-sizing: border-box;
+  font-size: $base-font-size;
+  background: none;
+  border: none;
+  font-family: $body-font-family;
+}
+
+.button {
+  @extend button;
+  border: none;
+  text-decoration: none;
+  color: $white-color;
+  background-color: $primary-color;
+  padding: rem-calc(10 20 9);
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.35s ease-out;
+  border-radius: $border-radius-s;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+
+  &--icon {
+    padding: rem-calc(12);
+    line-height: 0;
+  }
+}

@@ -1,0 +1,15 @@
+/**********************************************************************************************************************/
+/* Font sizes for different breakpoints */
+/* Usage example: h1{ @include font-sizes((small, 30), (medium, 40), (large, 50));} */
+/**********************************************************************************************************************/
+@mixin font-sizes($font-sizes...) {
+  @each $breakpoint-font, $font-size in $font-sizes {
+    @each $breakpoint, $size in $breakpoints {
+      @if $breakpoint-font == $breakpoint {
+        @media print, screen and (min-width: $size) {
+          font-size: rem-calc($font-size);
+        }
+      }
+    }
+  }
+}

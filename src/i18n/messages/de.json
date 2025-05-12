@@ -1,0 +1,42 @@
+{
+  "Home": {
+    "hero": {
+      "subtitle": "Verfügbar ab Sommer 2025",
+      "title": "Challenges, die bleiben.",
+      "description": "Stell dich mit der cappic App spannenden Challenges und fotografiere deine Erlebnisse – alleine, als Paar oder mit Freund:innen. Wähle deine Lieblingskategorien, halte besondere Momente mit Fotos fest und brich aus deinem Alltag aus!"
+    },
+    "introduction": {
+      "title": "Erlebe unvergessliche Momente mit der cappic App!",
+      "description": "Erstelle und meistere spannende Foto-Challenges – alleine, gemeinsam mit Freund:innen, Familie oder deinem/deiner Partner:in. Unsere App macht das Festhalten und Teilen besonderer Erlebnisse spielerisch und interaktiv. Lass dich inspirieren, probiere Neues aus und sammle wertvolle Erinnerungen! Ob lustige Aufgaben, kreative Schnappschüsse oder gemeinsame Abenteuer – die Challenges helfen dir, dem Alltag zu entfliehen und deine Beziehungen zu stärken."
+    }
+  },
+  "Footer": {
+    "imprint": "Impressum",
+    "privacyPolicy": "Datenschutzerklärung",
+    "TermsAndConditions": "AGB",
+    "followUs": "Folge uns"
+  },
+  "AppNotInstalled": {
+    "hero": {
+      "subtitle": "cappic herunterladen",
+      "title": "App nicht installiert?",
+      "description": "Bitte installiere die cappic App über einen der folgenden Stores."
+    }
+  },
+  "metadata": {
+    "title": "cappic - Challenges, die bleiben.",
+    "description": "cappic ist die App für kreative Foto-Challenges mit Freund:innen & Familie – erstelle persönliche Erlebnisse, halte sie fest.",
+    "imprint": {
+      "title": "Impressum - cappic",
+      "description": "Rechtliche Informationen und Kontaktdaten von cappic"
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung - cappic",
+      "description": "Informationen zum Umgang mit Ihren Daten bei cappic"
+    },
+    "terms": {
+      "title": "AGB - cappic",
+      "description": "Allgemeine Geschäftsbedingungen von cappic"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.cappic.app",
+      "sha256_cert_fingerprints": [
+        "0B:9A:74:3F:39:BC:1E:F7:E7:7E:63:C4:A7:B0:F5:3B:0C:8D:BB:3A:2A:8A:FD:21:D1:0D:E5:7A:31:E0:2C:E9",
+        "25:B1:C5:95:AC:DF:A5:1C:38:5A:DC:28:60:A6:C8:A5:D0:A8:38:24:73:4D:E4:ED:FF:93:1B:C3:25:44:25:5C"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.cappic.app.preview",
+      "sha256_cert_fingerprints": [
+        "34:46:B4:58:95:10:56:49:C9:FC:04:24:C2:E8:7D:AF:E9:E7:46:AC:86:1E:4E:AD:BF:9C:A7:B0:3A:D8:97:13"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.cappic.app.dev",
+      "sha256_cert_fingerprints": [
+        "62:EA:42:C3:5C:95:EC:8C:21:8F:01:9D:FA:F7:88:DE:CC:B0:05:6C:75:E9:0A:37:43:D2:45:C1:78:8A:6E:8D"
+      ]
+    }
+  }
+]

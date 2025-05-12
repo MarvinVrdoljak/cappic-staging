@@ -1,0 +1,48 @@
+.hero {
+  margin: rem-calc(50 0 125);
+
+  @include breakpoint(large, down) {
+    margin: rem-calc(35 0 50);
+  }
+
+  &__inner {
+    @include globalWidth();
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    gap: rem-calc(75);
+    background-color: $background-color-soft;
+    padding: rem-calc(10 50);
+    border-radius: $border-radius-l;
+
+    @include breakpoint(large, down) {
+      padding: rem-calc(30);
+      flex-direction: column;
+      gap: rem-calc(25);
+    }
+  }
+
+  &__content {
+    flex: 55% 1;
+    @include breakpoint(large, down) {
+      order: 2;
+    }
+  }
+
+  &__title {
+    color: $primary-color;
+  }
+
+  &__image-wrapper {
+    flex: 45% 1;
+    margin-top: rem-calc(-50);
+    @include breakpoint(large, down) {
+      max-width: 300px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+}

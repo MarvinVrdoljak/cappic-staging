@@ -1,0 +1,42 @@
+{
+  "Home": {
+    "hero": {
+      "subtitle": "Coming Summer 2025",
+      "title": "Challenges that last.",
+      "description": "Take on exciting challenges with the cappic app and capture your experiences—alone, as a couple, or with friends. Choose your favorite categories, document special moments with photos, and break free from your daily routine!"
+    },
+    "introduction": {
+      "title": "Experience unforgettable moments with the cappic app!",
+      "description": "Create and complete exciting photo challenges—alone, with friends, family, or your partner. Our app makes capturing and sharing special moments fun and interactive. Get inspired, try something new, and collect valuable memories! Whether it’s fun tasks, creative snapshots, or shared adventures—our challenges help you escape the ordinary and strengthen your relationships."
+    }
+  },
+  "AppNotInstalled": {
+    "hero": {
+      "subtitle": "Get cappic",
+      "title": "App not installed?",
+      "description": "Please install the cappic app via one of the following stores."
+    }
+  },
+  "Footer": {
+    "imprint": "Imprint",
+    "privacyPolicy": "Privacy Policy",
+    "TermsAndConditions": "Terms & Conditions",
+    "followUs": "Follow us"
+  },
+  "metadata": {
+    "title": "cappic - Challenges that remain",
+    "description": "cappic is the app for creative photo challenges with friends & family – create personal moments and capture them along the way.",
+    "imprint": {
+      "title": "Imprint - cappic",
+      "description": "Legal information and contact details of cappic"
+    },
+    "privacy": {
+      "title": "Privacy Policy - cappic",
+      "description": "Information about how we handle your data at cappic"
+    },
+    "terms": {
+      "title": "Terms & Conditions - cappic",
+      "description": "General Terms and Conditions of cappic"
+    }
+  }
+}

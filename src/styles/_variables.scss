@@ -1,0 +1,41 @@
+// Colors
+$primary-color: #c33149;
+$primary-text-color: #ffffff;
+$secondary-color: #404040;
+$secondary-text-color: #ffffff;
+$background-color: #ffffff;
+$background-color-soft: #f6f6f6;
+$text-color: #191919;
+$second-text-color: #2c3e50;
+$border-color: #d8d8d8;
+$white-color: #ffffff;
+$error-color: #c33149;
+
+// Layout
+$max-width: 1100px;
+$border-radius: 12px;
+
+// Breakpoints and Layout
+$breakpoints: (
+  small: 0px,
+  medium: 768px,
+  large: 1024px,
+  xlarge: 1280px,
+);
+$global-width: 90%;
+
+// Font
+$base-font-size: 16px;
+$base-line-height: 1.5;
+$header-line-height: 1.1;
+
+$body-font-family: var(--font-poppins), -apple-system, 'Arial', sans-serif;
+$body-font-weight: 400;
+
+$header-font-family: var(--font-poppins), -apple-system, 'Arial' sans-serif;
+$header-font-weight: 700;
+
+// Radius
+$border-radius-s: 5px;
+$border-radius-m: 10px;
+$border-radius-l: 20px;
