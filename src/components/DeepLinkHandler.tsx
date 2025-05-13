@@ -10,10 +10,11 @@ export default function DeepLinkHandler() {
     if (
       pathname?.includes('/login') ||
       pathname?.includes('/reset-password') ||
-      // pathname?.includes('/invite') ||
+      pathname?.includes('/invite') ||
       pathname?.includes('/sign-up')
     ) {
       const hash = window.location.hash
+      const search = window.location.search
       const deepLink = `cappic-app-prev://${pathname}${hash}`
       console.log('deepLink', deepLink, pathname, hash)
       window.location.href = deepLink
