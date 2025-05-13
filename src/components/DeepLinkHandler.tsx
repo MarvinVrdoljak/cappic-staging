@@ -10,7 +10,7 @@ export default function DeepLinkHandler() {
     if (
       pathname?.includes('/login') ||
       pathname?.includes('/reset-password') ||
-      pathname?.includes('/invite') ||
+      // pathname?.includes('/invite') ||
       pathname?.includes('/sign-up')
     ) {
       const hash = window.location.hash
