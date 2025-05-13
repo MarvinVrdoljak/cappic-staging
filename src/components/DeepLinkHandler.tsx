@@ -14,8 +14,10 @@ export default function DeepLinkHandler() {
       pathname?.includes('/sign-up') ||
       pathname?.includes('/auth/callback')
     ) {
+      console.log('deepLink')
       const hash = window.location.hash
       const deepLink = `cappic-app-prev://${pathname}${hash}`
+      console.log('deepLink', deepLink, hash)
       window.location.href = deepLink
     }
   }, [pathname])
