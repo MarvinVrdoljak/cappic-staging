@@ -15,7 +15,7 @@ export default function DeepLinkHandler() {
       pathname?.includes('/auth/callback')
     ) {
       const hash = window.location.hash
-      const deepLink = `cappic-app-preview://${pathname}${hash}`
+      const deepLink = `cappic-app-prev://${pathname}${hash}`
       window.location.href = deepLink
     }
   }, [pathname])
