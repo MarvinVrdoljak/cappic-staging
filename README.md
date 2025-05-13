@@ -44,5 +44,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## Check app site association
 
 ```bash
-curl -H "Cache-Control: no-cache" -v https://app-site-association.cdn-apple.com/a/v1/cappic.app
+curl -H "Cache-Control: no-cache" -v https://app-site-association.cdn-apple.com/a/v1/staging.cappic.app
 ```
